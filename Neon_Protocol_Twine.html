@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Neon Protocol</title>
+  <script src="https://cdn.jsdelivr.net/gh/tmedwards/sugarcube-2/dist/format.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://images.unsplash.com/photo-1574002672438-1d1c7b49b6c1?auto=format&fit=crop&w=1950&q=80');
+      background-size: cover;
+      background-position: center;
+      font-family: 'Helvetica Neue', sans-serif;
+      color: #ffffff;
+      font-size: 18px;
+    }
+    tw-story {
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 700px;
+      margin: 40px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    a.link-internal {
+      display: block;
+      background-color: #00bcd4;
+      color: #000;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-align: center;
+      margin: 10px 0;
+      text-decoration: none;
+      transition: background-color 0.2s;
+    }
+    a.link-internal:hover {
+      background-color: #26c6da;
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Mirko_Rotondi/Neon_Cyberpunk/Mirko_Rotondi_-_01_-_Night_City_Tokyo.mp3" type="audio/mpeg">
+  </audio>
+  <tw-storydata name="Neon Protocol" startnode="1" creator="ChatGPT" creator-version="1.0" ifid="CYBER-TOKYO-001">
+    <tw-passagedata pid="1" name="Inizio" tags="" position="100,100" size="100,100">
+      Tokyo-Delta, anno 2137. Le luci al neon tagliano la pioggia acida.  
+      Sei Yuki, un* hacker solitari*. Il tuo terminale lampeggia.  
+      > "Trova il protocollo. Salva la rete. Oppure sparisci."  
+      [[Accedi al terminale segreto|Terminale]]  
+      [[Ignora il messaggio e scappa nella notte|Fuga]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="2" name="Terminale" tags="" position="300,100" size="100,100">
+      Ti colleghi al mainframe. Mille stringhe di codice scorrono.  
+      Un firewall cerca di bloccarti.  
+      [[Disattiva il firewall con un override|Override]]  
+      [[Lancia un'esca digitale|Esca]]
+    </tw-passagedata>
+
+    <tw-passagedata pid="3" name="Fuga" tags="" position="500,100" size="100,100">
+      Corri tra i vicoli bagnati. Droni sorvolano la zona.  
+      Sei libero, ma qualcosa dentro di te si spegne.  
+      **FINE**  
+    </tw-passagedata>
+
+    <tw-passagedata pid="4" name="Override" tags="" position="700,100" size="100,100">
+      L'override riesce. Il protocollo si apre.  
+      **Hai salvato la rete.**  
+      **FINE**  
+    </tw-passagedata>
+
+    <tw-passagedata pid="5" name="Esca" tags="" position="900,100" size="100,100">
+      L'esca funziona, ma solo per poco.  
+      Un virus si installa nel tuo impianto neurale.  
+      **Fine... o forse no.**  
+    </tw-passagedata>
+  </tw-storydata>
+</body>
+</html>
